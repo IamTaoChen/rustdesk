@@ -76,7 +76,7 @@
   "vcpkg-configuration": {
     "default-registry": {
       "kind": "builtin",
-      "baseline": "f7423ee180c4b7f40d43402c2feb3859161ef625"
+      "baseline": "latest"
     },
     "overlay-ports": [
       "./res/vcpkg"
@@ -89,7 +89,7 @@
     },
     {
       "name": "amd-amf",
-      "version": "*"
+      "version": "1.4.35"
     },
     {
       "name": "mfx-dispatch",
