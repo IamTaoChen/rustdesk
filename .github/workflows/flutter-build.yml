@@ -31,7 +31,6 @@ env:
   FLUTTER_ELINUX_VERSION: "3.16.9"
   TAG_NAME: "${{ inputs.upload-tag }}"
   VCPKG_BINARY_SOURCES: "clear;x-gha,readwrite"
-  VCPKG_ROOT: C:/vcpkg
   # vcpkg version: 2025.01.13
   VCPKG_COMMIT_ID: "db1ddd074bd51bf01baf4c4672b82de9680835ca"
   VERSION: "1.3.9"
