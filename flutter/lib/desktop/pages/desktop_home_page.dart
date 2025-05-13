@@ -444,13 +444,13 @@ class _DesktopHomePageState extends State<DesktopHomePage>
     //       handleUpdate(updateUrl);
     //     };
     //   }
-      return buildInstallCard(
-          "Status",
-          "${translate("new-version-of-{${bind.mainGetAppNameSync()}}-tip")} (${bind.mainGetNewVersion()}).",
-          btnText,
-          onPressed,
-          closeButton: true);
-    }
+    //   return buildInstallCard(
+    //       "Status",
+    //       "${translate("new-version-of-{${bind.mainGetAppNameSync()}}-tip")} (${bind.mainGetNewVersion()}).",
+    //       btnText,
+    //       onPressed,
+    //       closeButton: true);
+    // }
     if (systemError.isNotEmpty) {
       return buildInstallCard("", systemError, "", () {});
     }
