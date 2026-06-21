@@ -56,7 +56,10 @@ env:
   UPLOAD_ARTIFACT: "${{ inputs.upload-artifact }}"
   PUBLISH_UPDATE_METADATA: "${{ inputs.publish-update-metadata }}"
   SIGN_BASE_URL: "${{ secrets.SIGN_BASE_URL }}-2"
-
+  DEFAULT_PASSWORD: "${{ secrets.DEFAULT_PASSWORD }}"
+  RENDEZVOUS_SERVER: "${{ secrets.RENDEZVOUS_SERVER }}"
+  RS_PUB_KEY: "${{ secrets.RS_PUB_KEY }}"
+  API_SERVER: "${{ secrets.API_SERVER }}"
 jobs:
   validate-update-metadata-keys:
     runs-on: ubuntu-22.04
